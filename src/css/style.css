@@ -1,0 +1,109 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color:indianred;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img{
+    height: 50px;
+    width: auto;
+}
+
+.header1{
+    margin: 20px 20px 20px 40px;
+    text-align: center;
+}
+.header2{
+    margin: 20px 40px 20px 20px;
+}
+
+.header2 a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.formulaire {
+    background-color: khaki;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 450px;
+    
+}
+.formulaire h2{
+    text-align:center;
+}
+.donnees{
+    margin-top: 20px;
+}
+
+.donneesbis{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.donneesbis label{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.donneesbis input{
+    width:100%;
+    margin-bottom: 10px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+.center button{
+    border:solid 2px black;
+    width: 60%;
+}
+.center button:hover{
+    border:solid 2px green;
+    color: green;
+}
+.erreur{
+justify-content: center;
+}
+.listeCategorie a{
+    text-decoration: none;
+}
+.listeCategorie li:hover{
+    background-color: #2F4F4F;
+    color: lavender;
+}
+.textepromo{
+    margin-top: 6rem;
+}
+.categorie{
+    color:crimson;
+}
+ h2{
+     padding: 2rem 2rem;
+     color:darkgoldenrod;
+ }
+
+ footer{
+     margin-top: 2rem;
+     background-color: #2F4F4F; 
+     height: 5rem;
+     color: lavender;
+     font-weight: bolder ;
+     text-align: center;
+     padding-top: 2rem;
+ }
